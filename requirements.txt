@@ -1,0 +1,16 @@
+# Requirements for Flux LoRA Dataset Preparation Tool (CLI + GUI)
+
+# Core image & data dependencies
+Pillow>=10.0.0
+
+# GUI
+PyQt6>=6.3.0
+
+# For BLIP image captioning (AI captions, optional but recommended)
+transformers>=4.30.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional: For better BLIP/transformers speed (not strictly required)
+accelerate>=0.20.0
+
